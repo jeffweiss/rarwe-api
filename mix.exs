@@ -30,11 +30,15 @@ defmodule Rarwe.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.1.4"},
-     {:postgrex, ">= 0.0.0"},
-     {:phoenix_ecto, "~> 2.0"},
-     {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+    [
+      {:phoenix, "~> 1.1.4"},
+      {:postgrex, ">= 0.0.0"},
+      {:phoenix_ecto, "~> 2.0"},
+      {:gettext, "~> 0.9"},
+      {:cowboy, "~> 1.0"},
+      {:ja_serializer, "~> 0.9.0"},
+      {:cors_plug, "~> 1.1"},
+    ]
   end
 
   # Aliases are shortcut or tasks specific to the current project.

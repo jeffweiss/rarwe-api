@@ -33,5 +33,7 @@ defmodule Rarwe.Endpoint do
     key: "_rarwe_key",
     signing_salt: "gZtNzJgj"
 
+  plug CORSPlug
+
   plug Rarwe.Router
 end
